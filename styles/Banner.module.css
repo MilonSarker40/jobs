@@ -1,0 +1,69 @@
+/*
+--------------
+ Banner Css
+-------------- 
+ */
+ .hmBanner{
+    position: relative;
+ }
+ .hmBanner::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 136, 255, 0.4);
+ }
+ .search_form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    z-index: 999;
+    max-width: 1000px;
+    width: 100%;
+ }
+ /* .search-form-wrp h1{
+    color: #fff;
+ } */
+
+.search_form_cntlr{
+   background-color: #fff;
+   padding: 0 15px;
+   border-radius: 50px;
+   box-shadow: 0 0 0 15px #00000080;
+   margin-top: 40px;
+   padding-right: 0px;
+
+}
+.search_form_cntlr form{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.search_box{
+   width: 30%;
+   padding: 0 10px;
+   border-right: 1px solid#ddd;
+}
+.search_box select,
+.search_box input{
+   border-radius: 0;
+   border: 0;
+   padding: 12px 10px;
+}
+.search_box:last-child{
+   width: 10%;
+   border-right: 0;
+   padding: 0;
+}
+.search_box button{
+   border-radius: 0 22px 22px 0;
+    width: 100%;
+    height: 45px;
+}
+
+
