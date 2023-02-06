@@ -9,4 +9,24 @@
     align-items: center;
     padding: 0 20px;
 }
+.login a{
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+    background: #1f86ef;
+    color: #fff;
+    padding: 10px 20px 10px 30px;
+    margin-left: 10px;
+    position: relative;
+    font-weight: 500;
+    border-radius: 2px;
+}
+.login a i{
+    position: absolute;
+    left:10px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
 

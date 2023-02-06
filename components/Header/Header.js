@@ -24,9 +24,9 @@ const Header = (props) => {
                  <div className='hdrMenu'>
                     <NavMenu />
                  </div>
-                 <div className='login'>
-                  <Button variant="primary" gap={3}><i class="ri-account-circle-fill"></i>Login</Button>
-                  <Button variant="primary" gap={3}><i class="ri-login-circle-line"></i> Register</Button>
+                 <div className={`${classes.login}`}>
+                  <Link href='/login' variant="primary" gap={3}><i class="ri-account-circle-fill"></i>Login</Link>
+                  <Link href='/singup' variant="primary" gap={3}><i class="ri-login-circle-line"></i> Register</Link>
                  </div>
                </div>
             </Row>

@@ -1,0 +1,92 @@
+/*
+----------------------
+login_form_sec_wrp
+---------------------- 
+ */
+ .login_form_sec_wrp{
+    padding: 80px 0;
+    background: #f8f8f8;
+ }
+ .login_form_wrp{
+    max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0px 12px 20px rgb(0 0 0 / 5%);
+	padding:40px 30px;
+ }
+ .login_form_left{
+    width: 60%;
+    float: left;
+    position: relative;
+    padding-right: 40px;
+ }
+ .login_form_left label{
+    font-size: 16px;
+    line-height: 1;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+ }
+ .login_form_or{
+	position: absolute;
+	right: -1px;
+	top: 0;
+	bottom: 0;
+	background: #1f86ef;
+	width: 1px;
+	height: 100%;
+}
+.login_form_or span {
+    position: absolute;
+    top: 50%;
+    right: -17px;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    background: #fff;
+    padding: 8px 5px;
+    font-size: 14px;
+    line-height: 1;
+    color: #1f86ef;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid#1f86ef;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+}
+.login_form_rgt{
+	float: right;
+	width: 40%;
+	padding-left: 40px;
+	padding-top: 30px;
+}
+.login_form_rgt_btn ul li {
+	display: block;
+	padding-bottom: 20px;
+}
+.login_form_rgt_btn ul li a {
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1;
+	color: #fff;
+	font-weight: 500;
+	background: #B91C1C;
+	padding: 15px 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.login_form_rgt_btn ul li a i {
+	display: inline-block;
+	vertical-align: baseline;
+	padding-right: 10px;
+}
+.login_form_rgt_btn ul li:nth-child(1) a {
+	background: rgba(157, 10, 77, 1);
+}
+.login_form_rgt_btn ul li:nth-child(3) a {
+	background: #1f86ef;
+}
