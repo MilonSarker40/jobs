@@ -1,0 +1,54 @@
+/*
+--------------------
+jobs_details_sec_wrp
+--------------------
+ */
+ .jobs_details_sec_wrp{
+    padding: 60px 0;
+ }
+ .jobs_dlt_lft{
+    border: dashed 1px transparent;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 20px 20px;
+ }
+ .job_box{
+    margin-bottom: 20px;
+    border-bottom: 1px solid#ddd;
+    position: relative;
+    padding: 15px 10px 15px 100px;
+ }
+ .job_box img{
+    position: absolute;
+    left: 0;
+    top: 5px;
+ }
+ .job_box ul li{
+    position: relative;
+    float: left;
+    padding: 0 15px;
+ }
+ .job_box ul li i{
+    display: inline-block;
+    vertical-align: baseline;
+    position: absolute;
+    left: 0;
+    color: #1f86ef;
+ }
+ .jobs_description p{
+    text-align: justify;
+ }
+ .jobs_description ul{
+    padding-bottom: 20px;
+ }
+ .jobs_description ul li{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    position: relative;
+ }
+ .jobs_description ul li i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color:#1f86ef;
+ }

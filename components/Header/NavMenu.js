@@ -24,7 +24,7 @@ const NavMenu = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#home">Jobs</Nav.Link>
+            <Nav.Link href="/jobs-detalis">Jobs</Nav.Link>
             <Nav.Link href="#home">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
