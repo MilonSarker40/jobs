@@ -19,12 +19,12 @@ const NavMenu = () => {
                 Another action
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/jobs-detalis">Jobs</Nav.Link>
+            <NavDropdown title="Jobs" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/job-list">Job List</NavDropdown.Item>
+              <NavDropdown.Item href="/jobs-detalis">Jobs Detalis</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#home">Company List</Nav.Link>
             <Nav.Link href="#home">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

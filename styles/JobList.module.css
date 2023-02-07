@@ -1,0 +1,56 @@
+.job_list_sec_wrp{
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+.company_list_sec_wrp{
+    background: #f8f8f8;
+    padding: 80px 0;
+}
+.company_box{
+    text-align: center;
+    border: dashed 1px transparent;
+    box-shadow: 0 0 35px rgb(0 0 0 / 10%);
+    background: #fff;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+.company_box h6{
+    margin: 15px 0 !important;
+    color: #1f86ef;
+    line-height: 1 !important;
+}
+.company_box h6 a{
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.company_box span{
+    position: relative;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: baseline;
+    padding-bottom: 15px;
+}
+.company_box span i{
+    position: absolute;
+    top: 1px;
+    left: 0;
+    color: #1f86ef;
+}
+.company_box > a{
+    display: table;
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+    background:#1f86ef;
+    border: 2px solid#1f86ef;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+.company_box > a:hover{
+    color: #1f86ef;
+    background: transparent;
+}

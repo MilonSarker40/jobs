@@ -1,9 +1,9 @@
 import React from "react";
 import GoogleMapReact from "google-map-react";
 
-const MapMarker = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-export default function SimpleMap() {
+export default function AppMapPage() {
   const defaultProps = {
     center: {
       lat: 10.99835602,
@@ -11,15 +11,15 @@ export default function SimpleMap() {
     },
     zoom: 11,
   };
-  
+
   return (
     <div style={{ height: "100vh", width: "100%" }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "MY API KEY IS HERE" }}
+        bootstrapURLKeys={{ key: "my key" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
-        <MapMarker text="My Marker" />
+        <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
       </GoogleMapReact>
     </div>
   );

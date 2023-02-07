@@ -5,6 +5,7 @@ jobs_details_sec_wrp
  */
  .jobs_details_sec_wrp{
     padding: 60px 0;
+    background: #f8f8f8;
  }
  .jobs_dlt_lft{
     border: dashed 1px transparent;
@@ -51,4 +52,48 @@ jobs_details_sec_wrp
     left: 0;
     top: 0;
     color:#1f86ef;
+ }
+ .jobs_dlt_rgt{
+   border: dashed 1px transparent;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 20px 20px;
+ }
+ .apply_button button{
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 10px;
+ }
+ .job_overview{
+   padding-top: 20px;
+ }
+ .job_overview ul li{
+   display: block;
+   border-bottom: 1px solid#ddd;
+   padding:10px 10px 10px 30px;
+   margin-bottom: 0;
+   position: relative;
+ }
+ .job_overview ul li i{
+   position: absolute;
+   top: 50%;
+   left: 0;
+   transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   font-size: 20px;
+   line-height: 1;
+   color: #1f86ef;
+ }
+ .job_overview ul li strong{
+   display: block;
+    font-size: 18px;
+    padding-bottom: 5px;
+ }
+ .add_image{
+   padding-top: 30px;
+ }
+ .add_image img{
+   width: 100%;
  }

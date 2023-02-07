@@ -2,7 +2,7 @@ import React from 'react';
 import classes from '../../styles/JobsDetalis.module.css';
 import {JobsList} from '../JobsDetails/JobsData';
 import {JobsList1} from '../JobsDetails/JobsData';
-import GoogleMap from '../JobsDetails/GoogleMap';
+// import AppMapPage from '../JobsDetails/AppMapPage';
 
 
 
@@ -25,7 +25,7 @@ const JobsDsce = () => {
             ))}
         </ul>
         <h5>Location</h5>
-        <GoogleMap />
+        {/* <AppMapPage /> */}
       </div>
     </>
   )
