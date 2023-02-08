@@ -1,0 +1,66 @@
+/*
+-----------------
+ About Us Css
+----------------- 
+*/
+.about_us_sec_wrp{
+    padding: 80px 0;
+}
+.about_img img{
+    width: 100%;
+}
+.about_dsc{
+    padding: 40px 0 30px 30px;
+}
+.about_dsc a{
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    background: #1f86ef;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+/*
+------------------
+service_sec_wrp
+------------------ 
+ */
+ .service_sec_wrp{
+    background: #f8f8f8;
+    padding: 80px 0;
+}
+.service_dsc_box{
+    text-align: center;
+    border: dashed 1px transparent;
+    box-shadow: 0 0 35px rgb(0 0 0 / 10%);
+    background: #fff;
+    padding: 30px 20px;
+}
+.service_dsc_box span{
+    display: inline-block;
+    vertical-align: baseline;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: #1f86ef;
+    font-size: 30px;
+    line-height: 60px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.service_dsc_box h4{
+    margin-bottom: 10px !important;
+}
+.service_dsc_box a{
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: underline;
+    color: #1f86ef;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+}

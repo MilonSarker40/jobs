@@ -10,8 +10,8 @@ const NavMenu = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#home">About Us</Nav.Link>
+            <Nav.Link href="index">Home</Nav.Link>
+            <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="#link">Candidated </Nav.Link>
             <NavDropdown title="Employers" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -24,8 +24,8 @@ const NavMenu = () => {
               <NavDropdown.Item href="/job-list">Job List</NavDropdown.Item>
               <NavDropdown.Item href="/jobs-detalis">Jobs Detalis</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#home">Company List</Nav.Link>
-            <Nav.Link href="#home">Contact</Nav.Link>
+            <Nav.Link href="/company-list">Company List</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
