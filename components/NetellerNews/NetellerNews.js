@@ -1,6 +1,6 @@
 import React from 'react';
 import Headding from '../Headding/Headding';
-import LatestNewsCard from '../LatestNews/LatestNewsCard';
+import LatestNewsCard from './LatestNewsCard';
 import classes from '../../styles/Home.module.css';
 
 const LatestNews = () => {
