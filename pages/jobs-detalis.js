@@ -6,6 +6,7 @@ import JobBox from '../components/JobsDetails/JobBox';
 import JobOverview from '../components/JobsDetails/JobOverview';
 import JobsDsce from '../components/JobsDetails/JobsDsce';
 import classes from '../styles/JobsDetalis.module.css';
+import NetellerNews from '../components/NetellerNews/NetellerNews';
 
 const JobsDetalis = () => {
   return (
@@ -30,6 +31,7 @@ const JobsDetalis = () => {
             </div>
         </div>
       </section>
+      <NetellerNews />
     </>
   )
 }

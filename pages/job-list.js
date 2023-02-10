@@ -5,6 +5,7 @@ import RJobs from '../components/FeaturedJob/RJobs';
 import Pagination from '../components/Pagination/pagination';
 import styles1 from '../styles/Home.module.css';
 import BreadCrumb from '../components/BreadCrumb/BreadCrumb';
+import NetellerNews from '../components/NetellerNews/NetellerNews';
 
 
 const JobList = () => {
@@ -24,6 +25,7 @@ const JobList = () => {
             </div>
         </div>
       </section>
+      <NetellerNews />
     </>
   )
 }

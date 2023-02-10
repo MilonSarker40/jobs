@@ -4,6 +4,7 @@ import ContactFrom from '../components/Contact/ContactFrom';
 import ContactInfo from '../components/Contact/ContactInfo';
 import Headding from '../components/Headding/Headding';
 import classes from '../styles/Contact.module.css';
+import NetellerNews from '../components/NetellerNews/NetellerNews';
 
 const contact = () => {
   return (
@@ -26,6 +27,7 @@ const contact = () => {
             </div>
         </div>
       </section>
+      <NetellerNews />
     </>
   )
 }

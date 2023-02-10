@@ -6,7 +6,7 @@ import HomeBanner from '../components/HomeBanner/HomeBanner';
 import Featured from '../components/Featured/Featured';
 import FeaturedJob from '../components/FeaturedJob/FeaturedJob';
 import Counter from '../components/Counter/Counter';
-import LatestNews from '../components/LatestNews/LatestNews';
+import NetellerNews from '../components/NetellerNews/NetellerNews';
 
 
 
@@ -24,7 +24,7 @@ export default function Home() {
       <Featured />
       <FeaturedJob />
       <Counter />
-      <LatestNews />
+      <NetellerNews />
     </Fragment>
   )
 }
