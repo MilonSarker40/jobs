@@ -248,3 +248,32 @@ BreadCrumb Css
   display: inline-block;
   vertical-align: baseline;
 }
+
+/*
+---------------
+ Sidebar Css
+--------------- 
+ */
+ .job_post_lft{
+  width: 20%;
+  float: left;
+}
+.job_post_rgt{
+  width: 80%;
+  float: right;
+  padding: 50px 30px;
+}
+.job_post_cntlr{
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    border-radius: 6px;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+.file-upload input{
+  float: left;
+  max-width: 95px;
+  width: 100%;
+  border: 1px solid#1f86ef !important;
+  margin-right: 15px;
+  background: #fff !important;
+}
