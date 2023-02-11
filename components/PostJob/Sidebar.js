@@ -9,7 +9,7 @@ const Sidebar = () => {
         <h5>Main</h5>
          <ul className='clearfix reset-list'>
             <li><Link href='/dashboard'><i class="ri-dashboard-fill"></i> Dashboard</Link></li>
-            <li><Link href='/Post-new-job'><i class="ri-add-line"></i> Post a New Job</Link></li>
+            <li><Link href='/post-job'><i class="ri-add-line"></i> Post a New Job</Link></li>
             <li><Link href='/manage-candidate'><i class="ri-user-follow-line"></i> Manage Candidate</Link></li>
             <li><Link href='manage-jobs'><i class="ri-briefcase-line"></i>Manage Jobs</Link></li>
             <li><Link href='messages'><i class="ri-mail-line"></i>Messages</Link></li>

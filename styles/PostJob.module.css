@@ -35,3 +35,105 @@
 .sidebar_menu ul li a:hover{
     color:#1f86ef;
 }
+
+.post_job_form label{
+    font-size: 15px !important;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.post_job_form textarea,
+.post_job_form select,
+.post_job_form input{
+    font-size: 14px !important;
+    line-height: 1;
+    height: 40px;
+}
+.post_job_form textarea{
+    height: 150px;
+}
+.edit_profile_lft{
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+}
+.edit_profile_rgt{
+    float: right;
+    width: 50%;
+    padding-left: 15px;
+}
+
+.edit_profile_photo{
+    background: #376bff;
+    position: relative;
+    box-shadow: 0 0 10px 1px rgba(71, 85, 95, .08);
+    padding: 2px;
+    border-radius: 50%;
+}
+.edit_profile_photo img{
+    width: 100%;
+    border-radius: 50%;
+}
+.change_photo_btn {
+    display: inline-block;
+    position: absolute;
+    font-size: 13px;
+    bottom: -15px;
+    left: 40%;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+    line-height: 28px;
+}
+.photoUpload{
+    position: relative;
+    overflow: hidden;
+    background: #376bff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+}
+.photoUpload span {
+    color: #fff;
+    font-size: 16px;
+    line-height: 38px;
+    font-weight: 600;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+.photoUpload input{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.candidate h6{
+    margin-bottom: 10px !important;
+    font-size: 18px !important;
+    line-height: 1;
+}
+.candidate i{
+    padding-right: 10px;
+}
+.candidate ul li{
+    float: left;
+    padding: 0 20px;
+    position: relative;
+}
+.candidate ul li i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #1f86ef;
+}
+.candidate_table table tbody{
+    vertical-align: middle;
+}

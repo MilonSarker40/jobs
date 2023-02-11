@@ -270,10 +270,34 @@ BreadCrumb Css
     cursor: pointer;
 }
 .file-upload input{
+  display: inline-block;
+  vertical-align: baseline;
+  text-align: center;
   float: left;
-  max-width: 95px;
+  max-width: 100px;
   width: 100%;
   border: 1px solid#1f86ef !important;
   margin-right: 15px;
-  background: #fff !important;
+  background: #0d6efd !important;
+  height: 40px !important;
+  border-radius: 5px;
 }
+.file-upload button{
+    padding: 10px 30px;
+    height: 40px;
+    text-transform: uppercase;
+}
+/* .file-upload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  left: 0;
+  bottom: 0;
+  text-indent: 0 !important;
+  opacity: 0;
+  filter: alpha(opacity=0);
+} */
+
