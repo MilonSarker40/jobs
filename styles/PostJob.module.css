@@ -117,7 +117,7 @@
 }
 .candidate h6{
     margin-bottom: 10px !important;
-    font-size: 18px !important;
+    font-size: 16px !important;
     line-height: 1;
 }
 .candidate i{
@@ -136,4 +136,43 @@
 }
 .candidate_table table tbody{
     vertical-align: middle;
+}
+.commont_dsc{
+    position: relative;
+    padding-left: 110px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid#ddd;
+    margin-bottom: 20px;
+}
+.commont_dsc img{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    border-radius: 5px;
+}
+.commont_dsc h6{
+    margin-bottom: 10px !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+}
+.commont_dsc span{
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+.commont_dsc span i{
+    display: inline-block;
+    vertical-align: baseline;
+    position: absolute;
+    left: 0;
+    color: #1f86ef;
+}
+.commont_dsc p a{
+    display: inline-block;
+    vertical-align: baseline;
+    color: #1f86ef;
+    padding-left: 10px;
+    text-decoration: none;
 }
