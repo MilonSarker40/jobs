@@ -226,4 +226,42 @@
     border-radius: 6px;
     padding: 30px 20px;
     cursor: pointer;
+    width: 50%;
+    margin-top: 30px;
+}
+.user_post_wrp ul li{
+    padding: 15px 0;
+    border-bottom: 1px solid#ddd;
+}
+.user_post_innr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.user_post_dsc{
+    padding-left: 120px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+}
+.user_post_dsc img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+}
+.user_post_dsc h5{
+    margin-bottom: 10px !important;
+}
+.user_post_dsc_btn a{
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    background: #1f86ef;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
