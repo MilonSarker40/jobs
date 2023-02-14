@@ -226,12 +226,24 @@
     border-radius: 6px;
     padding: 30px 20px;
     cursor: pointer;
-    width: 50%;
     margin-top: 30px;
+    position: relative;
+}
+.new_users_wrp h5{
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    font-size: 20px !important;
 }
 .user_post_wrp ul li{
     padding: 15px 0;
     border-bottom: 1px solid#ddd;
+}
+.new_users_wrp ul li button{
+    border: 0 !important;
+    text-transform: uppercase !important;
+    font-weight: 600;
+    color: #1C3496;
 }
 .user_post_innr{
     display: flex;
@@ -240,9 +252,9 @@
     width: 100%;
 }
 .user_post_dsc{
-    padding-left: 120px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-left: 90px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     position: relative;
 }
 .user_post_dsc img{
@@ -251,17 +263,61 @@
     top: 0;
     border-radius: 5px;
 }
-.user_post_dsc h5{
+.user_post_dsc h6{
     margin-bottom: 10px !important;
+    font-size: 18px !important;
+    line-height: 1 !important;
 }
 .user_post_dsc_btn a{
     display: inline-block;
     vertical-align: baseline;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1;
     color: #fff;
     background: #1f86ef;
-    padding: 10px 20px;
+    padding: 8px 20px;
     border-radius: 20px;
     text-decoration: none;
 }
+.account_lft{
+    width: 60%;
+    float: left;
+    padding-right: 15px;
+}
+.account_rgt{
+    width: 40%;
+    float: right;
+    padding-left: 15px;
+}
+.user_post_dsc p{
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    background: #1f86ef;
+    border-radius: 5px;
+    text-align: center;
+}
+.user_post_dsc p i{
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 25px;
+    line-height:48px;
+    color: #fff;
+}
+.latest_project_table{
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    border-radius: 6px;
+    padding: 30px 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    position: relative;
+}
+.latest_project_table table tbody tr td,
+.latest_project_table table thead tr th{
+    padding: 15px 15px;
+    vertical-align: middle;
+}
+
