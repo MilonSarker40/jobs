@@ -1,8 +1,12 @@
 .sidebar_menu{
     background: #4267B2;
     padding: 50px 20px;
-    width: 100%;
-    height: 100vh;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20%;
 }
 .sidebar_menu h5{
     color: #fff;
@@ -319,5 +323,23 @@
 .latest_project_table table thead tr th{
     padding: 15px 15px;
     vertical-align: middle;
+}
+.PostJob_candidate_table .table-bordered>:not(caption)>*>* {
+    border-width: 0 !important;
+}
+.candidate_table table tbody tr{
+    background:#fff !important;
+}
+.candidate_table table tbody tr td,
+.candidate_table table thead tr th{
+    padding: 15px 15px;
+    border: 0 !important;
+}
+.candidate_table table tbody tr td{
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.candidate img{
+    border-radius: 5px;
 }
 

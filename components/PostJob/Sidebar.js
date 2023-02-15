@@ -13,7 +13,6 @@ const Sidebar = () => {
             <li><Link href='/manage-candidate'><i class="ri-user-follow-line"></i> Manage Candidate</Link></li>
             <li><Link href='manage-jobs'><i class="ri-briefcase-line"></i>Manage Jobs</Link></li>
             <li><Link href='messages'><i class="ri-mail-line"></i>Messages</Link></li>
-            <li><Link href='transaction'><i class="ri-exchange-dollar-line"></i>Transaction</Link></li>
             <li><Link href='change-password'><i class="ri-lock-fill"></i>Change Password</Link></li>
             <li><Link href='edit-profile'><i class="ri-user-fill"></i>Edit Profile</Link></li>
             <li><Link href='logout'><i class="ri-login-circle-line"></i>Logout</Link></li>
