@@ -1,0 +1,54 @@
+.account_create_sec_wrp{
+    padding: 80px 0;
+}
+.profile_pic{
+    float: left;
+    width: 20%;
+    padding-right: 15px;
+}
+.profile_pic input{
+    width: 200px;
+    height: 200px;
+}
+.profile_name{
+    float: right;
+    width: 80%;
+    padding-left: 15px;
+    padding-top:15px;
+}
+.social_links,
+.skill_form,
+.education_form,
+.information_form{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid#ddd;
+}
+.skill_form label,
+.education_form label,
+.information_form label,
+.profile_pic label,
+.profile_name label{
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.profile_pic input{
+    border-radius: 0;
+}
+.save_btn button,
+.profile_name button{
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.information_form textarea{
+    height: 200px;
+}
+.edit_btn button{
+    margin-left: 10px;
+}
