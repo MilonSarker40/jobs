@@ -310,3 +310,52 @@ BreadCrumb Css
   border-bottom: 2px solid#1f86ef !important;
 }
 
+/*
+------------------
+Information Form
+------------------ 
+*/
+.photoUpload-2 {
+  cursor: pointer;
+  padding: 12px 29px 10px 29px;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 0;
+  float: left;
+  margin-right: 10px;
+  background: #1f86ef;
+}
+.photoUpload-2 {
+  color: #fff;
+  border: solid 1px #376bff;
+  background: #1f86ef;
+}
+.photoUpload {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 20px;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+.photoUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.select_field{
+  margin-bottom: 20px;
+}
+.select_field select{
+  max-width: 250px;
+  width: 100%;
+  border-radius: 0 !important;
+}
+

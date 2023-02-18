@@ -12,7 +12,17 @@ const CompanyList = () => {
       <section className={`${classes.company_list_sec_wrp}`}>
         <div className='container'>
             <div className='row'>
-                <Select />
+              <div className='col-md-6'>
+                  <Select />
+              </div>
+              <div className='col-md-6'>
+                <div className={`${classes.search_form}`}>
+                  <span><i class="ri-search-line"></i></span>
+                  <input type='search' placeholder='Search' />
+                </div>
+              </div>
+            </div>
+            <div className='row'>
                 <CompanyCard />
             </div>
         </div>

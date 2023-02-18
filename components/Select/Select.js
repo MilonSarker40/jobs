@@ -6,7 +6,7 @@ const Select = () => {
     <>
       <div className='select_field'>
         <Form.Select aria-label="Default select example" size="lg">
-            <option>Open this select menu</option>
+            <option>Select Your Company</option>
             <option value="1">One</option>
             <option value="2">Two</option>
             <option value="3">Three</option>

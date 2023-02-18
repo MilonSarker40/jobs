@@ -11,6 +11,18 @@ const InformationForm = () => {
         <h3>Basic Information</h3>
          <Form>
             <Row className="mb-4">
+              <Col className='file_upload_btn'>
+                <div class="photoUpload photoUpload-2">
+                    Upload Cover Photo
+                    <input type="file" class="upload" />
+                </div>
+                <div class="photoUpload photoUpload-2">
+                    Upload Your CV
+                    <input type="file" class="upload" />
+                </div>
+              </Col>
+            </Row>
+            <Row className="mb-4">
                 <Col>
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Your Name</Form.Label>
