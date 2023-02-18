@@ -39,13 +39,28 @@
 .sidebar_menu ul li a:hover{
     color:#1f86ef;
 }
-
+.contact_form_wrp label,
+.work_form_wrp label,
+.education_form_wrp label,
+.resume_form_wrp label,
 .post_job_form label{
     font-size: 15px !important;
     line-height: 1;
     text-transform: uppercase;
     font-weight: 600;
 }
+.contact_form_wrp input,
+.contact_form_wrp select,
+.contact_form_wrp textarea,
+.work_form_wrp input,
+.work_form_wrp select,
+.work_form_wrp textarea,
+.education_form_wrp input,
+.education_form_wrp select,
+.education_form_wrp textarea,
+.resume_form_wrp input,
+.resume_form_wrp select,
+.resume_form_wrp textarea,
 .post_job_form textarea,
 .post_job_form select,
 .post_job_form input{
@@ -53,6 +68,10 @@
     line-height: 1;
     height: 40px;
 }
+.contact_form_wrp textarea,
+.work_form_wrp textarea,
+.education_form_wrp textarea,
+.resume_form_wrp textarea,
 .post_job_form textarea{
     height: 150px;
 }
