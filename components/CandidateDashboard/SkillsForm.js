@@ -21,8 +21,9 @@ const SkillsForm = () => {
                     <Form.Control type="text" size="lg" placeholder="Value" />
                 </Form.Group>
             </Row>
-            <Row className="mb-4">
-               <div class="photoUpload photoUpload-2">
+            <Row className="mb-4 mrl-10">
+                <Form.Label>Portfolio</Form.Label>
+               <div class="sk_photoUpload sk_photoUpload_2">
                     Upload Cover Photo
                     <input type="file" class="upload" />
                 </div>

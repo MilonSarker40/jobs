@@ -359,3 +359,62 @@ Information Form
   border-radius: 0 !important;
 }
 
+/*
+----------------
+.resume_form_wrp
+----------------
+*/
+.sk_photoUpload_2 {
+  cursor: pointer;
+  padding:0;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+  background: #1f86ef;
+  height: 150px;
+}
+.sk_photoUpload_2 {
+  color: #000;
+  border: solid 1px #ddd;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sk_photoUpload {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 20px;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+.sk_photoUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  border-radius: 5px;
+}
+.mrl-10{
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+.mrl-10 label{
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 600;
+}
+

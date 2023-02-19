@@ -39,6 +39,7 @@
 .sidebar_menu ul li a:hover{
     color:#1f86ef;
 }
+.skills_form_wrp label,
 .contact_form_wrp label,
 .work_form_wrp label,
 .education_form_wrp label,
@@ -199,6 +200,8 @@
     padding-left: 10px;
     text-decoration: none;
 }
+
+
 
 /*
 --------------------
