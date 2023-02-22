@@ -1,33 +1,43 @@
+.applied_wrp > ul > li,
 .bookmark_wrp > ul > li{
     border-bottom: 1px solid#ddd;
     padding: 10px 0 20px;
     margin-bottom: 10px;
 }
+.applied_item,
 .bookmark_item{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.applied_item_dsc,
 .bookmark_item_dsc{
     padding-left: 100px;
     position: relative;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.applied_item_dsc{
+    padding-left: 70px;
+}
+.applied_item_dsc img,
 .bookmark_item_dsc img{
     position: absolute;
     left: 0;
     top: 0;
     border-radius: 5px;
 }
+.applied_item_dsc h6,
 .bookmark_item_dsc h6{
     margin-bottom: 10px !important;
 }
+.applied_item_dsc ul li,
 .bookmark_item_dsc ul li{
     float: left;
     padding: 0 20px 10px 20px;
     position: relative;
 }
+.applied_item_dsc ul li i,
 .bookmark_item_dsc ul li i{
     position: absolute;
     left: 0;
@@ -39,8 +49,19 @@
     padding-left:25px;
     margin-left: 10px;
 }
+.applied_item_btn button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
 .bookmark_item_btn button i{
     position: absolute;
     left: 10px;
     top: 5px;
+}
+.transaction_table table tbody tr td{
+    background: transparent !important;
+    box-shadow: none !important;
+    padding:20px 20px;
 }
