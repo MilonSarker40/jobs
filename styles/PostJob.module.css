@@ -220,10 +220,10 @@
     background: #1C3496;
 }
 .ds_active_list_wrp ul li:nth-child(3) .active_list_grid{
-    background: #FBE7F2;
+    background: #ffc107;
 }
 .ds_active_list_wrp ul li:nth-child(2) .active_list_grid{
-    background: #DFEEDB;
+    background: #343a40;
 }
 
 .active_list_grid{

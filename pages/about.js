@@ -2,6 +2,7 @@ import React from 'react';
 import AboutUs from '../components/AboutUs/AboutUs';
 import Service from '../components/AboutUs/Service';
 import BreadCrumb from '../components/BreadCrumb/BreadCrumb';
+import HeaderProfile from '../components/Header/HeaderProfile';
 import NetellerNews from '../components/NetellerNews/NetellerNews';
 
 const About = () => {
@@ -11,6 +12,7 @@ const About = () => {
       <AboutUs />
       <Service />
       <NetellerNews />
+      <HeaderProfile />
     </>
   )
 }

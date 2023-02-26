@@ -65,3 +65,87 @@
     box-shadow: none !important;
     padding:20px 20px;
 }
+
+/*
+------------------
+ Header Css
+------------------ 
+*/
+.header_profile_sec_wrp{
+    background: #4267B2;
+    padding: 10px 0;
+}
+.header_profile_innr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avator button.dropdown-toggle{
+    white-space: nowrap;
+    background: transparent;
+    border: 0;
+    padding: 0;
+  }
+.avator button{
+    padding: 0 !important;
+    background: transparent !important;
+}
+.avator img{
+    width: 70px;
+    height: 70px;
+    border:5px solid#fff;
+    border-radius: 40px;
+}
+.avator .dropdown-menu a{
+    padding-left: 30px;
+}
+.avator .dropdown-menu a i {
+    padding-top: 2px;
+    position: absolute;
+    left: 10px;
+    color: #1C3496;
+}
+
+/*
+------------------
+ Profile Menu
+------------------ 
+*/
+.header_profile{
+    position: relative;
+}
+.avator ul{
+    min-width: 10rem;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    box-shadow: 0 0 35px rgb(0 0 0 / 10%);
+    position: absolute;
+    top: 100%;
+    margin-top: 10px;
+    z-index: 999999;
+}
+.profile_menu span{
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 500;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.avator ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: #000;
+    transition: all .3s ease-in-out;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+}
+.avator ul li a:hover{
+    color: #1f86ef;
+}
