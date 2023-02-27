@@ -29,4 +29,10 @@
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
+.logo a{
+    display: inline-block;
+    vertical-align: baseline;
+    max-width: 120px;
+    width: 100%;
+}
 

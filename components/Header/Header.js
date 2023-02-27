@@ -16,7 +16,7 @@ const Header = (props) => {
         <div className='container'>
             <Row>
               <div className={`${classes.header__innr}`}>
-                <div className='logo'>
+                <div className={`${classes.logo}`}>
                     <Link href='/'>
                         <Image src={Logo} width='150px' height='50px' alt='' /> 
                     </Link>
