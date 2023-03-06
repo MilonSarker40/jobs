@@ -8,10 +8,15 @@ import FeaturedJob from '../components/FeaturedJob/FeaturedJob';
 import Counter from '../components/Counter/Counter';
 import NetellerNews from '../components/NetellerNews/NetellerNews';
 
-
+import HomePage from '../components/HomePage/HomePage';
+import DashboardPage from '../components/DashboardPage/DashboardPage';
 
 export default function Home() {
+  const logState = true;
+  const renderApp = logState ? <HomePage /> : <DashboardPage />
+
   return (
+    // renderApp
     <Fragment>
       <Head>
         <title>Create Next App</title>
