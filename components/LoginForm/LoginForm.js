@@ -1,10 +1,53 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Link from 'next/Link';
 import classes from '../../styles/LoginForm.module.css';
 
 const LoginForm = () => {
+
+  const [email,setEmail] =useState();
+  const [password,setPassword] =useState();
+  const [checkbox,setCheckbox] =useState();
+
+  const emailVal =(e)=>{
+    setEmail(e.target.value);
+  }
+  const passwordVal =(e)=>{
+    setPassword(e.target.value);
+  }
+  const checkboxVal =(e)=>{
+    setCheckbox(e.target.value);
+  }
+
+  let data={
+    'email':email,
+    'password':password,
+    'checkbox':checkbox,
+  }
+
+
+  
+
+
+  const saveData = () => {
+    console.log(data);
+    fetch('http://localhost:3000/login', {
+        method: 'POST', // or 'PUT'
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+    })
+    .then((response) => response.json())
+    .then((data) => {
+        console.log('Success:', data);
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+    clearData();
+}
   return (
     <>
       <div className='login_form clearfix'>
@@ -12,17 +55,17 @@ const LoginForm = () => {
           <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control size="lg" type="email" placeholder="Enter email" />
+                <Form.Control size="lg" type="email" placeholder="Enter email" onChange={emailVal} />
             </Form.Group>
 
             <Form.Group className="mb-4" controlId="formBasicPassword">
                 <Form.Label>Password</Form.Label>
-                <Form.Control size="lg" type="password" placeholder="Password" />
+                <Form.Control size="lg" type="password" placeholder="Password" onChange={passwordVal} />
             </Form.Group>
             <Form.Group className="mb-4" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
+                <Form.Check type="checkbox" label="Check me out" onChange={checkboxVal} />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" onClick={saveData}>
                 Login
             </Button>
           </Form>

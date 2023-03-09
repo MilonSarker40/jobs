@@ -19,6 +19,8 @@
     vertical-align: baseline;
     text-decoration: none;
     padding-bottom: 20px;
+    max-width: 150px;
+    width: 100%;
 }
 .ftr_socail_icon ul{
     margin: 0 -5px;
