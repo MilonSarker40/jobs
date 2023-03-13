@@ -66,6 +66,13 @@
     padding:20px 20px;
 }
 
+.header_profile_innr a{
+    display: inline-block;
+    vertical-align: baseline;
+    max-width: 120px;
+    width: 100%;
+}
+
 /*
 ------------------
  Header Css
@@ -119,6 +126,7 @@
     padding: 0;
     margin: 0;
     border: 1px solid transparent;
+    background: #fff;
     box-shadow: 0 0 35px rgb(0 0 0 / 10%);
     position: absolute;
     top: 100%;

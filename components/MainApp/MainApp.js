@@ -1,4 +1,4 @@
-import dashboard from "../../pages/dashboard";
+import dashboard from "../Dashboard/Dashboard";
 
 const MainApp = ({ Component, pageProps }) => {
     const logState = true;

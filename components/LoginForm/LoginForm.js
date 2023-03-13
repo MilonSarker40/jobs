@@ -9,6 +9,7 @@ const LoginForm = () => {
   const [email,setEmail] =useState();
   const [password,setPassword] =useState();
   const [checkbox,setCheckbox] =useState();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const emailVal =(e)=>{
     setEmail(e.target.value);
@@ -26,27 +27,27 @@ const LoginForm = () => {
     'checkbox':checkbox,
   }
 
-
-  
-
-
   const saveData = () => {
     console.log(data);
-    fetch('http://localhost:3000/login', {
-        method: 'POST', // or 'PUT'
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-    })
-    .then((response) => response.json())
-    .then((data) => {
-        console.log('Success:', data);
-    })
-    .catch((error) => {
-        console.error('Error:', error);
-    });
-    clearData();
+    // fetch('http://localhost:3000/login', {
+    //     method: 'POST', // or 'PUT'
+    //     headers: {
+    //         'Content-Type': 'application/json',
+    //     },
+    //     body: JSON.stringify(data),
+    // })
+    // .then((response) => response.json())
+    // .then((data) => {
+    //     console.log('Success:', data);
+    // })
+    // .catch((error) => {
+    //     console.error('Error:', error);
+    // });
+    // clearData();
+
+    setIsLoggedIn(true);
+    window.localStorage.setItem("isLoggedIn", true);
+    location.replace("/");  
 }
   return (
     <>
@@ -65,7 +66,7 @@ const LoginForm = () => {
             <Form.Group className="mb-4" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Check me out" onChange={checkboxVal} />
             </Form.Group>
-            <Button variant="primary" type="submit" onClick={saveData}>
+            <Button variant="primary" type="button" onClick={saveData}>
                 Login
             </Button>
           </Form>

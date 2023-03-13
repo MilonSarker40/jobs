@@ -21,6 +21,12 @@ const ChangePasswordForm = () => {
     setCpassword(e.target.value);
   }
 
+  let data={
+    'currentp':currentp,
+    'newpassword':newpassword,
+    'cpassword':cpassword,
+  }
+
   const saveData = () => {
     console.log(data);
     fetch('http://localhost:3000/contact', {

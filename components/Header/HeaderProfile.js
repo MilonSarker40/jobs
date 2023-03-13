@@ -13,6 +13,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const HeaderProfile = (props) => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
     // const toggle = () => setDropdownOpen((prevState) => !prevState);
+
+    const logOut = () => {
+      window.localStorage.removeItem("isLoggedIn");
+      location.reload();
+    }
   return (
     <>
       <div className={`${classes.header_profile_sec_wrp}`}>
@@ -36,7 +41,7 @@ const HeaderProfile = (props) => {
                           <li><a href='#'>Messages</a></li>
                           <li><a href='#'>Bookmark</a></li>
                           <li><a href='#'>Edit profile</a></li>
-                          <li><a href='#'>Logout</a></li>
+                          <li><a href='#' onClick={logOut}>Logout</a></li>
                         </ul>
                       )}
                         {/* <Dropdown title="Dropdown" isOpen={dropdownOpen} toggle={toggle} {...props}>

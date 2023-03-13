@@ -17,7 +17,7 @@ const AccountName = () => {
                         <span>{items.price}</span>
                     </div>
                     <div className={`${classes.user_post_dsc_btn}`}>
-                    <Link href='#'>{items.delete}</Link>
+                        <Link href='#'>{items.delete}</Link>
                     </div>
                 </div>
                 </li>

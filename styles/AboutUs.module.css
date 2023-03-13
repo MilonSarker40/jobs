@@ -10,7 +10,10 @@
     width: 100%;
 }
 .about_dsc{
-    padding: 10px 0 30px 10px;
+    padding: 50px 0 30px 10px;
+}
+.about_dsc p{
+    text-align: justify;
 }
 .about_dsc a{
     display: inline-block;

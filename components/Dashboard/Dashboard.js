@@ -1,11 +1,11 @@
 import React from 'react';
-import BreadCrumb from '../components/BreadCrumb/BreadCrumb';
-import Accounts from '../components/Dashboard/Accounts';
-import ActiveList from '../components/Dashboard/ActiveList';
-import NewUsers from '../components/Dashboard/NewUsers';
-import Sidebar from '../components/PostJob/Sidebar';
-import NetellerNews from '../components/NetellerNews/NetellerNews';
-import LatestProject from '../components/Dashboard/LatestProject';
+import BreadCrumb from '../BreadCrumb/BreadCrumb';
+import Accounts from './Accounts';
+import ActiveList from './ActiveList';
+import NewUsers from './NewUsers';
+import Sidebar from '../PostJob/Sidebar';
+import NetellerNews from '../NetellerNews/NetellerNews';
+import LatestProject from './LatestProject';
 
 const dashboard = () => {
   return (
