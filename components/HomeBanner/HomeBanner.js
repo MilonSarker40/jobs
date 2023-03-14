@@ -7,7 +7,7 @@ import SearchForm from '../HomeBanner/SearchForm';
 const HomeBanner = () => {
   return (
     <>
-      <section className={`${classes.hmBanner}`}>
+      <section className={`${classes.hmBanner}`} id='main-block'>
         <Image src={BannerImage} height={900} alt="Banner Image" />
         <div className={`${classes.search_form}`}>
             <SearchForm />
